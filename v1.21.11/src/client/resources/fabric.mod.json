@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "camera-control",
+  "version": "${version}",
+  "name": "Camera Control",
+  "description": "Move your camera with remappable keys. Adjust speed on the fly.",
+  "authors": ["Hassan"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.hassanmod.cameracontrol.CameraControlClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "camera-control.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

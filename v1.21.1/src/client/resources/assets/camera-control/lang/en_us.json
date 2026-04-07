@@ -1,0 +1,10 @@
+{
+  "category.camera-control.camera": "Camera Control",
+
+  "key.camera-control.look_up":    "Look Up",
+  "key.camera-control.look_down":  "Look Down",
+  "key.camera-control.look_left":  "Look Left",
+  "key.camera-control.look_right": "Look Right",
+  "key.camera-control.speed_up":   "Camera Speed Up",
+  "key.camera-control.speed_down": "Camera Speed Down"
+}
